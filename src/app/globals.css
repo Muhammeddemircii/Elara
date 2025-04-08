@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.clip-path-hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Hide horizontal scrollbar */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Remove duplicate scrollbars on mobile and tablet */
+@media (max-width: 1024px) {
+  body {
+    overflow-y: auto;
+    position: relative;
+    height: 100%;
+  }
+  
+  #about, 
+  #about section,
+  section, 
+  main, 
+  div[class*="container"],
+  .content {
+    overflow: visible !important;
+    overflow-y: visible !important;
+    max-width: 100%;
+  }
+  
+  /* Target any element that might be causing scrollbars */
+  *:not(html, body) {
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
