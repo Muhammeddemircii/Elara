@@ -60,7 +60,7 @@ const resources = {
       "localProductionDesc1": "We reduce dependence on imports.",
       "localProductionDesc2": "We introduce our products to international markets, expanding our export capacity.",
       "contactUs": "Contact Us!",
-      "footerText": "At Elara Agriculture, we continue to offer quality and healthy products while protecting nature.",
+      "footerText": "At Elara Tarım, we continue to offer quality and healthy products while protecting nature.",
       "footerText2": "You can contact us to get more information about our nature-friendly agricultural solutions.", 
       "contactPhone": "Phone",
       "contactFax": "Fax",

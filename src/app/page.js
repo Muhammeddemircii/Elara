@@ -11,7 +11,7 @@ const About = dynamic(() => import('./components/about'));
 const OurServices = dynamic(() => import('./components/our-services'));
 /*const ComfortablePricing = dynamic(()=>import('./components/comfortable-pricing'));*/
 /*const ClientSreview = dynamic (()=>import('./components/clientsreview'));*/
-/*const BlogsNews = dynamic(()=>import('./components/blogs-news'));*/
+const BlogsNews = dynamic(()=>import('./components/blogs-news'));
 /*const GetInTouch = dynamic(()=>import('./components/get-in-touch'));*/
 import * as Unicons from '@iconscout/react-unicons';
 
@@ -43,7 +43,7 @@ export default function Index() {
             <About />
             {/*<ComfortablePricing  title="Our Comfortable Pricing" desc="Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page."/>*/}
             {/*<ClientSreview  className="lg:py-24 py-16"/>*/}
-            {/*<BlogsNews title="Blogs or News" desc="Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page."/>*/}
+            <BlogsNews title="Blogs or News" desc="Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS html page."/>
             {/*<GetInTouch />*/}
     
             <Footer />
