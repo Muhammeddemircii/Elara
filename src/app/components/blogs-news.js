@@ -27,7 +27,7 @@ export default function BlogsNews({title,desc}) {
                                 <p className="text-[#969696] mt-3 font-montserrat">{item.detail}</p>
 
                                 <div className="mt-5">
-                                    <Link href={`blog-detail/${item.id}`} className="hover:text-[#7F206D] dark:hover:text-[#7F206D]  dark:text-white transition duration-500 inline-flex items-center gap-1 font-montserrat">{item.more}<Unicons.UilArrowRight width={16}/></Link>
+                                    <Link href={`https://wa.me/905497356406`} target="_blank" className="hover:text-[#7F206D] dark:hover:text-[#7F206D] dark:text-white transition duration-500 inline-flex items-center gap-1 font-montserrat">Sipariş Ver<Unicons.UilArrowRight width={16}/></Link>
                                 </div>
                             </div>
                         </div>
