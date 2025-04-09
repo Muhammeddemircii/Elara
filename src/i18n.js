@@ -66,7 +66,8 @@ const resources = {
       "contactFax": "Fax",
       "contactWhatsapp": "Whatsapp",
       "contactEmail": "Email",
-      "contactAddress": "Address"
+      "contactAddress": "Address",
+      "buyNow": "Buy Now"
     }
   },
   tr: {
@@ -134,6 +135,7 @@ const resources = {
       "contactWhatsapp": "Whatsapp",
       "contactEmail": "E-posta",
       "contactAddress": "Adres",
+      "buyNow": "Sipariş Ver"
     }
   }
 };

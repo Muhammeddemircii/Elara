@@ -2,15 +2,17 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 import { BlogsNewsdata } from '../Data/data';
 import * as Unicons from '@iconscout/react-unicons';
 
 export default function BlogsNews({title,desc}) {
+    const { t } = useTranslation();
     const data = BlogsNewsdata.slice(0, 3)
     return (
         <>
-            <div id="blogs-news" className="container lg:py-24 py-16">
+            <div id="blogs-news" className="container lg:py-24 py-16 bg-white">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-2xl text-xl font-medium font-montserrat text-[#339933]">{title}</h3>
 
@@ -27,7 +29,7 @@ export default function BlogsNews({title,desc}) {
                                 <p className="text-[#969696] mt-3 font-montserrat">{item.detail}</p>
 
                                 <div className="mt-5">
-                                    <Link href={`https://wa.me/905497356406`} target="_blank" className="hover:text-[#7F206D] dark:hover:text-[#7F206D] dark:text-white transition duration-500 inline-flex items-center gap-1 font-montserrat">Sipariş Ver<Unicons.UilArrowRight width={16}/></Link>
+                                    <Link href={`https://wa.me/905497356406`} target="_blank" className="hover:text-[#7F206D] dark:hover:text-[#7F206D] dark:text-white transition duration-500 inline-flex items-center gap-1 font-montserrat">{t('buyNow')}<Unicons.UilArrowRight width={16}/></Link>
                                 </div>
                             </div>
                         </div>
