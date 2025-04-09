@@ -1673,11 +1673,10 @@ p{
   color: rgb(127 32 109 / var(--tw-text-opacity)) !important;
 }
 :is(.dark .navbar .navigation .navbar-nav .nav-link){
-  color: rgb(0 0 0 / 0.6) !important;
+  color: rgb(127 32 109) !important;
 }
 :is(.dark .navbar .navigation .navbar-nav .nav-link:hover){
-
-  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+  color: rgb(127 32 109) !important;
 }
 .navbar .navigation .navbar-nav .active .nav-link{
   color: rgb(51 153 51 / var(--tw-text-opacity)) !important;
@@ -1796,7 +1795,7 @@ p{
 
   .navbar.is-sticky .navbar-nav.nav-light.sidebar-nav .nav-link:hover{
     --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    color: rgb(127 32 109 / var(--tw-text-opacity)) !important;
   }
 
   .navbar.is-sticky .navbar-nav.nav-light.sidebar-nav .active .nav-link{
@@ -1821,18 +1820,18 @@ p{
   }
   .navbar.is-sticky .navbar-nav.nav-light .nav-link{
     --tw-text-opacity: 1;
-    color: rgb(153 51 153 / var(--tw-text-opacity));
+    color: rgb(127 32 109 / var(--tw-text-opacity));
   }
   .navbar.is-sticky .navbar-nav.nav-light .nav-link:hover{
     --tw-text-opacity: 1;
-    color: rgb(153 51 153/ var(--tw-text-opacity));
+    color: rgb(127 32 109/ var(--tw-text-opacity));
   }
   :is(.dark .navbar.is-sticky .navbar-nav.nav-light .nav-link){
-    color: rgb(153 51 153 / 0.6) !important;
+    color: rgb(127 32 109 / 0.6) !important;
   }
   :is(.dark .navbar.is-sticky .navbar-nav.nav-light .nav-link:hover){
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    color: rgb(127 32 109 / var(--tw-text-opacity)) !important;
   }
   .navbar.is-sticky .navbar-nav.nav-light .nav-link.active{
     --tw-text-opacity: 1;
