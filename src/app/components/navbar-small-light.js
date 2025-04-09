@@ -131,6 +131,11 @@ export default function NavbarSmallLight() {
                                 </Link1>
                             </li>
                             <li className={`nav-item`}>
+                                <Link1 to="blogs-news" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} className="nav-link cursor-pointer">
+                                  {isMounted ? t('blog') : 'Blog'}
+                                </Link1>
+                            </li>
+                            <li className={`nav-item`}>
                                 <Link1 to="footer" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} className="nav-link cursor-pointer">
                                   {isMounted ? t('contact') : 'İletişim'}
                                 </Link1>

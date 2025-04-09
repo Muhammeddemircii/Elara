@@ -91,7 +91,7 @@ export default function Footer() {
                             <Image src={WP} alt="Whatsapp" className='w-3 h-3 mb-4' />
                             <div className="flex flex-col">
                                 <p className="text-xs font-bold text-[#7F206D]">{t("contactWhatsapp")}</p>
-                                <p className="text-[10px] text-[#969696] mt-0.5">+90 549 807 6707</p>
+                                <p className="text-[10px] text-[#969696] mt-0.5">+90 549 735 64 06</p>
                             </div>
                         </div>
                         <div className="flex items-center space-x-3">
@@ -132,7 +132,7 @@ export default function Footer() {
                                 <Image src={WP} alt="Whatsapp" className='w-4 h-4 mb-6' />
                                 <div className="flex flex-col">
                                     <p className="text-xs font-bold text-[#7F206D]">{t("contactWhatsapp")}</p>
-                                    <p className="text-xs text-[#969696] mt-1">+90 549 807 6707</p>
+                                    <p className="text-xs text-[#969696] mt-1">+90 549 735 64 06</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-4">
@@ -176,7 +176,7 @@ export default function Footer() {
                                 <Image src={WP} alt="Whatsapp" className='w-4 h-4 mb-8' />
                                 <div className="flex flex-col">
                                     <p className="text-sm font-bold text-[#7F206D]">{t("contactWhatsapp")}</p>
-                                    <p className="text-sm text-[#969696] mt-1.5">+90 549 807 6707</p>
+                                    <p className="text-sm text-[#969696] mt-1.5">+90 549 735 64 06</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-5">
@@ -220,7 +220,7 @@ export default function Footer() {
                                 <Image src={WP} alt="Whatsapp" className='w-4 h-4 mb-9' />
                                 <div className="flex flex-col">
                                     <p className="text-base font-bold text-[#7F206D]">{t("contactWhatsapp")}</p>
-                                    <p className="text-base text-[#969696] mt-2">+90 549 807 6707</p>
+                                    <p className="text-base text-[#969696] mt-2">+90 549 735 64 06</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-7">
