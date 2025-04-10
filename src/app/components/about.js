@@ -60,25 +60,34 @@ export default function About() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="content md:mt-8 font-montserrat ">
+                            <div className="content md:mt-8 font-montserrat">
                                 <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
                                     <div className="lg:col-start-2 lg:col-span-10">
-                                        <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-8 gap-[30px]">
-                                            <div>
-                                                <div className="section-title text-md-start">
-                                                    <h6 className="text-white font-bold md:text-3xl text-2xl">{t('whyElara')}</h6>
-                                                    <h3 className="text-white mt-8 md:text-base text-sm">{t('whyElaraContent')}</h3>
+                                        <h6 className="text-white font-bold md:text-3xl text-2xl mb-8">{t('whyElara')}</h6>
+                                        <div className="hidden lg:block">
+                                            <div className="flex flex-row gap-8">
+                                                <div className="section-title">
+                                                    <h3 className="text-white text-lg md:text-xl leading-relaxed">{t('whyElaraContent')}</h3>
+                                                </div>
+                                                <div className="section-title">
+                                                    <p className="text-white text-lg md:text-xl leading-relaxed">{t('whyElaraContent2')}</p>
                                                 </div>
                                             </div>
-
-                                            <div className="section-title text-md-start ">
-                                                <p className="text-white lg:mt-14 md:mt-16 md:text-base text-sm">{t('whyElaraContent2')}</p>
-                                                
+                                        </div>
+                                        <div className="lg:hidden">
+                                            <div className="flex flex-col gap-8">
+                                                <div className="section-title">
+                                                    <h3 className="text-white text-lg md:text-xl leading-relaxed">{t('whyElaraContent')}</h3>
+                                                </div>
+                                                <div className="section-title">
+                                                    <p className="text-white text-lg md:text-xl leading-relaxed">{t('whyElaraContent2')}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
