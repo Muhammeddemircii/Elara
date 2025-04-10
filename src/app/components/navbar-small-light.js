@@ -43,7 +43,7 @@ export default function NavbarSmallLight() {
             const rect = langButtonRef.current.getBoundingClientRect();
             setDropdownPosition({
                 top: rect.bottom + window.scrollY,
-                left: rect.left + window.scrollX + (rect.width / 2) - 14
+                left: rect.left + window.scrollX
             });
         }
         setLangDropdown(!langDropdown);
@@ -113,7 +113,7 @@ export default function NavbarSmallLight() {
 
                     {langDropdown && isMounted && (
                         <div 
-                            className="fixed bg-white shadow-lg rounded-md overflow-hidden z-[9999] w-28"
+                            className="fixed bg-white shadow-lg rounded-md overflow-hidden z-[9999] w-14"
                             style={{ 
                                 top: `${dropdownPosition.top}px`, 
                                 left: `${dropdownPosition.left}px` 
@@ -122,14 +122,14 @@ export default function NavbarSmallLight() {
                             <a
                                 href="?lng=en"
                                 onClick={() => setLangDropdown(false)}
-                                className="block px-4 py-2 text-xs text-left hover:bg-blue-100 transition duration-200"
+                                className="block px-4 py-2 text-xs text-left hover:bg-[#7F206D] hover:text-white transition duration-200"
                             >
                                 EN
                             </a>
                             <a
                                 href="?lng=tr"
                                 onClick={() => setLangDropdown(false)}
-                                className="block px-4 py-2 text-xs text-left hover:bg-red-100 transition duration-200"
+                                className="block px-4 py-2 text-xs text-left hover:bg-[#7F206D] hover:text-white transition duration-200"
                             >
                                 TR
                             </a>
