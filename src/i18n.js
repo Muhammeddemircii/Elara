@@ -39,7 +39,7 @@ const resources = {
         }
       },
       "whyElara": "Why Elara Tarım?",
-      "whyElaraContent": "We embarked on this journey to shape the future of agriculture, reduce dependency on imports, and support local production. Through innovative agricultural technologies, we create high-value-added products.",
+      "whyElaraContent": "On our journey to shape the future of agriculture, reduce dependence on imports, and support local production, we carry out value-added production using innovative agricultural technologies.",
       "whyElaraContent2": "With a zero-carbon footprint goal, Elara practices sustainable agriculture by utilizing geothermal energy. While producing delicious and nutritious fruits, Elara embraces a respectful approach to both nature and the future bringing local production to global markets",
       "howstudy": "How We Work?",
       "howstudyDesc": "We practice agriculture with eco-friendly solutions, working to leave a cleaner world for future generations.",
