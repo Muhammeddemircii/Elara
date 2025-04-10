@@ -10,11 +10,11 @@ import * as Unicons from '@iconscout/react-unicons';
 export default function BlogsNews({title,desc}) {
     const { t } = useTranslation();
     const data = BlogsNewsdata.slice(0, 3)
-    return (
+    return ( 
         <>
             <div id="blogs-news" className="container lg:py-24 py-16 bg-white">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-4 md:text-2xl text-xl font-medium font-montserrat text-[#339933]">{title}</h3>
+                    <h3 className="mb-4 md:text-3xl text-2xl font-bold  font-montserrat text-[#339933]">{title}</h3>
 
                     <p className="text-[#969696] max-w-xl mx-auto  font-montserrat">{desc}</p>
                 </div>
