@@ -19,7 +19,7 @@ export default function About() {
 
     return (
         <>
-            <section className="relative  bg-white" id="about">
+            <section className="relative bg-white lg:mt-0 -mt-28" id="about">
                 <div className="container mx-auto ">
                     <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
                         <div className="lg:col-span-5">
