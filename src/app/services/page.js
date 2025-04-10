@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
 const Navbar = dynamic(()=>import('../components/navbar'), { ssr: false });
 const Switcher = dynamic(()=>import('../components/Switcher'), { ssr: false });
@@ -9,6 +10,7 @@ const Footer = dynamic(()=>import('../components/footer'));
 const ClientReview2 = dynamic (()=>import('../components/clientReview2'));
 const OurServices = dynamic(()=>import('../components/our-services'));
 import * as Unicons from '@iconscout/react-unicons';
+
 export default function Services() {
     return (
         <>
@@ -30,7 +32,13 @@ export default function Services() {
                 <ClientReview2/>
                 <div className="container lg:py-24 py-16">
                     <div className="grid grid-cols-1 text-center">
-                        <Image src="1_Böğürtlen.jpg"/>
+                        <Image 
+                            src="/1_Böğürtlen.jpg" 
+                            alt="Böğürtlen" 
+                            width={500} 
+                            height={300}
+                            style={{ margin: 'auto' }}
+                        />
                     </div>
                 </div>
             </section>

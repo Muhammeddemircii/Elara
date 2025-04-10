@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image';
 import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '../../../components/LanguageSwitcher';
+import LanguageSwitcher from '../../components/LanguageSwitcher';
 
 import * as Unicons from '@iconscout/react-unicons';
 
