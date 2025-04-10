@@ -23,7 +23,10 @@ export default function About() {
                 <div className="container mx-auto ">
                     <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 gap-10 items-center">
                         <div className="lg:col-span-5">
-                            <div className="relative">
+                            <div className="relative h-52 lg:hidden w-full mb-4 overflow-hidden ">
+                                <Image src="/images/aile.jpg" className="rounded-lg shadow-lg relative" alt="" width={0} height={0} sizes='100vw' style={{ height: "auto", width: "100%" }} />
+                            </div>
+                            <div className="hidden h-full lg:block w-full mb-4">
                                 <Image src="/images/aile.jpg" className="rounded-lg shadow-lg relative" alt="" width={0} height={0} sizes='100vw' style={{ height: "auto", width: "100%" }} />
                             </div>
                         </div>
