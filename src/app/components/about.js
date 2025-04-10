@@ -71,7 +71,7 @@ export default function About() {
                                             </div>
 
                                             <div className="section-title text-md-start ">
-                                                <p className="text-white  mt-16 md:text-base text-sm">{t('whyElaraContent2')}</p>
+                                                <p className="text-white lg:mt-14 md:mt-16 md:text-base text-sm">{t('whyElaraContent2')}</p>
                                                 
                                             </div>
                                         </div>
