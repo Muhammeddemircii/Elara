@@ -25,8 +25,6 @@ export default function About() {
                         <div className="lg:col-span-5">
                             <div className="relative">
                                 <Image src="/images/aile.jpg" className="rounded-lg shadow-lg relative" alt="" width={0} height={0} sizes='100vw' style={{ height: "auto", width: "100%" }} />
-                                <div className="absolute bottom-2/4 translate-y-2/4 end-0 start-0 text-center">
-                                </div>
                             </div>
                         </div>
                         <div className="lg:col-span-7">
@@ -41,7 +39,7 @@ export default function About() {
                                     <Link href="/aboutus"
                                         className="py-2 px-5  font-normal tracking-wide border align-middle transition
                                          duration-500 ease-in-out text-base text-center font-montserrat bg-[#7F206D]
-                                          hover:bg-[#993399] border-[#7F206D] hover:border-[#7F206D] text-white rounded-md inline-flex items-center gap-1">{t('readMore')} <Unicons.UilArrowRight width={16} /></Link>
+                                          hover:bg-[#7F206D] border-[#7F206D] hover:border-[#7F206D] text-white rounded-md inline-flex items-center gap-1">{t('readMore')} <Unicons.UilArrowRight width={16} /></Link>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +79,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <div className="absolute bottom-0 end-0 start-0 h-4/5 md:h-2/3 bg-[#993399] transition-colors duration-500"></div>
+                <div className="absolute bottom-0 end-0 start-0 h-4/5 md:h-2/3 bg-[#7F206D] transition-colors duration-500"></div>
             </section>
             <HowStudy />
 
