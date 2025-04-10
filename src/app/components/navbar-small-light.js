@@ -42,8 +42,8 @@ export default function NavbarSmallLight() {
         if (!langDropdown && langButtonRef.current) {
             const rect = langButtonRef.current.getBoundingClientRect();
             setDropdownPosition({
-                top: rect.bottom + window.scrollY,
-                left: rect.left + window.scrollX
+                top: rect.bottom,
+                left: rect.left
             });
         }
         setLangDropdown(!langDropdown);
