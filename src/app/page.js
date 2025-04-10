@@ -22,21 +22,37 @@ export default function Index() {
         <>
             <NavbarSmallLight />
 
-            <section id="home" className="relative xs:h-[40vh] h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-screen w-full overflow-hidden">
+            <section id="home" className="relative h-screen w-full overflow-hidden">
                 <div className="absolute inset-0 w-full h-full">
-                    <Image 
-                        src="/images/bg/bg-6.jpg" 
-                        alt="Background" 
-                        fill
-                        priority
-                        style={{ 
-                            objectFit: 'contain',
-                            objectPosition: 'center center',
-                            width: '100%',
-                            height: '100%'
-                        }}
-                        className="lg:object-cover"
-                    />
+                    <div className="block lg:hidden w-full h-full">
+                        <Image 
+                            src="/images/bg/1.jpg" 
+                            alt="Background" 
+                            fill
+                            priority
+                            sizes="100vw"
+                            style={{ 
+                                objectFit: 'contain',
+                                objectPosition: 'center center',
+                            }}
+                            className="w-full h-full"
+                        />
+                    </div>
+                    
+                    <div className="hidden lg:block w-full h-full">
+                        <Image 
+                            src="/images/bg/bg-6.jpg" 
+                            alt="Background" 
+                            fill
+                            priority
+                            sizes="100vw"
+                            style={{ 
+                                objectFit: 'cover',
+                                objectPosition: 'center center',
+                            }}
+                            className="w-full h-full"
+                        />
+                    </div>
                 </div>
             </section>
 
