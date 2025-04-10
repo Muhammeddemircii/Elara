@@ -56,7 +56,7 @@ export default function About() {
                             <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
                                 <div className="lg:col-start-2 lg:col-span-10">
                                     <div className="relative">
-                                        <Image src="/images/bogurtlenler.jpg" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} />
+                                        <Image src="/images/bogurtlenler.png" className="rounded-md shadow-lg" alt="" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} />
                                     </div>
                                 </div>
                             </div>
